@@ -102,6 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
 
             modal.appendChild(modalImg);
+            modal.appendChild(modalCross);
             document.body.appendChild(modal);
 
             modal.addEventListener('click', function() {
