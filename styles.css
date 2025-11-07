@@ -440,3 +440,34 @@ footer {
         background-attachment: scroll;
     }
 }
+
+/* Language Switcher */
+.language-switcher {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 1rem;
+}
+
+.language-switcher a {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.language-switcher a:hover {
+    background-color: rgba(44, 90, 160, 0.1);
+}
+
+.language-switcher a.active {
+    background-color: rgba(44, 90, 160, 0.2);
+}
+
+@media (max-width: 768px) {
+    .language-switcher {
+        flex-direction: column;
+        gap: 0.25rem;
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+}
