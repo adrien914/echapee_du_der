@@ -92,11 +92,16 @@ body {
     height: 100vh;
     background: linear-gradient(rgba(44, 90, 160, 0.7), rgba(44, 90, 160, 0.7)),
                 url('images/eglise.JPG') center/cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
+    position: relative;
+    overflow: hidden;
 }
 
 .hero-content h1 {
@@ -428,5 +433,10 @@ footer {
 
     .gallery-grid {
         grid-template-columns: 1fr;
+    }
+
+    /* Disable parallax on mobile for better performance */
+    .hero {
+        background-attachment: scroll;
     }
 }
