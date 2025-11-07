@@ -92,6 +92,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             `;
 
+            const modalCross = document.createElement('span');
+            modalCross.innerHTML = 'X';
+            modalCross.style.cssText = `
+                position: fixed;
+                top: 2rem;
+                right: 2rem;
+                color: red;
+            `;
+
             modal.appendChild(modalImg);
             document.body.appendChild(modal);
 
