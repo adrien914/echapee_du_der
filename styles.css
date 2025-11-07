@@ -1,4 +1,4 @@
-* {
+ine* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -340,7 +340,7 @@ body {
 
 .contact-item a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 500;
     transition: color 0.3s ease;
 }
