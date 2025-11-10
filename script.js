@@ -93,13 +93,34 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
 
             const modalCross = document.createElement('span');
-            modalCross.innerHTML = 'X';
+            modalCross.innerHTML = '&times;'; // nicer typographic X
             modalCross.style.cssText = `
                 position: fixed;
-                top: 2rem;
-                right: 2rem;
-                color: red;
+                top: 1.5rem;
+                right: 1.5rem;
+                font-size: 2rem;
+                color: #fff;
+                background-color: rgba(0,0,0,0.5);
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                z-index: 1001;
             `;
+
+            modalCross.addEventListener('mouseenter', () => {
+                modalCross.style.backgroundColor = '#ff4b4b';
+                modalCross.style.transform = 'scale(1.1)';
+            });
+
+            modalCross.addEventListener('mouseleave', () => {
+                modalCross.style.backgroundColor = 'rgba(0,0,0,0.5)';
+                modalCross.style.transform = 'scale(1)';
+            });
 
             modal.appendChild(modalImg);
             modal.appendChild(modalCross);
@@ -132,4 +153,19 @@ document.addEventListener('DOMContentLoaded', function() {
         card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
         observer.observe(card);
     });
+
+    const topButton = document.getElementById("backToTop");
+
+    window.onscroll = function() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            topButton.style.display = "block";
+        } else {
+            topButton.style.display = "none";
+        }
+    };
+
+    topButton.addEventListener("click", function() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
 });
+
