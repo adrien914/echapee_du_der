@@ -1,0 +1,11 @@
+# robots.txt for echappee-der.com
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://echappee-der.com/sitemap.xml
+
+# Crawl rate (optional - adjust if needed)
+# Crawl-delay: 10

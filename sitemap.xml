@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- French (Default) -->
+    <url>
+        <loc>https://echappee-der.com/</loc>
+        <lastmod>2026-01-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://echappee-der.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://echappee-der.com/index-en.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://echappee-der.com/index-de.html"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://echappee-der.com/index-nl.html"/>
+    </url>
+
+    <!-- English -->
+    <url>
+        <loc>https://echappee-der.com/index-en.html</loc>
+        <lastmod>2026-01-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://echappee-der.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://echappee-der.com/index-en.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://echappee-der.com/index-de.html"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://echappee-der.com/index-nl.html"/>
+    </url>
+
+    <!-- German -->
+    <url>
+        <loc>https://echappee-der.com/index-de.html</loc>
+        <lastmod>2026-01-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://echappee-der.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://echappee-der.com/index-en.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://echappee-der.com/index-de.html"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://echappee-der.com/index-nl.html"/>
+    </url>
+
+    <!-- Dutch -->
+    <url>
+        <loc>https://echappee-der.com/index-nl.html</loc>
+        <lastmod>2026-01-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://echappee-der.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://echappee-der.com/index-en.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://echappee-der.com/index-de.html"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://echappee-der.com/index-nl.html"/>
+    </url>
+
+</urlset>
