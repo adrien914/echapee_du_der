@@ -28,10 +28,11 @@
     <meta property="twitter:image" content="https://echappee-der.com/images/veranda.JPG">
 
     <!-- Alternate languages -->
-    <link rel="alternate" hreflang="fr" href="index.html">
-    <link rel="alternate" hreflang="en" href="index-en.html">
-    <link rel="alternate" hreflang="de" href="index-de.html">
-    <link rel="alternate" hreflang="nl" href="index-nl.html">
+    <link rel="alternate" hreflang="x-default" href="https://echappee-der.com/">
+    <link rel="alternate" hreflang="fr" href="https://echappee-der.com/">
+    <link rel="alternate" hreflang="en" href="https://echappee-der.com/index-en.html">
+    <link rel="alternate" hreflang="de" href="https://echappee-der.com/index-de.html">
+    <link rel="alternate" hreflang="nl" href="https://echappee-der.com/index-nl.html">
 
     <link rel="canonical" href="https://echappee-der.com/index-en.html" />
 
@@ -53,7 +54,8 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "LodgingBusiness",
+        "@type": ["LodgingBusiness", "VacationRental"],
+        "numberOfRooms": 1,
         "name": "L'Échappée Der",
         "description": "Vacation rental at Lac du Der - Cozy cottage with mezzanine, hydro shower. Near Giffaumont nautical station.",
         "image": [
@@ -106,6 +108,55 @@
                 "@type": "TouristAttraction",
                 "name": "Lac du Der",
                 "description": "Europe's largest artificial lake"
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Where is L'Échappée Der located?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "L'Échappée Der is located near Lac du Der in Haute-Marne, France, 8 km from the Giffaumont nautical station."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What activities are available near the cottage?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nautical activities (sailing, paddle boarding, canoeing, fishing, swimming), 35 km of cycle paths and hiking trails, birdwatching for migratory birds, and visits to picturesque villages and local gastronomy."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I book L'Échappée Der?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can book directly on Airbnb at airbnb.com/h/lechapee5277, or contact us by email at lechapeeder52@gmail.com or by phone at +33 6 79 12 81 03."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is included in the rental?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The rental includes a 20 m² living room with toilet, an 18 m² mezzanine bedroom with a 160 cm king size bed, washbasin and hydro shower."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is Lac du Der the largest artificial lake in Europe?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Lac du Der-Chantecoq is Europe's largest artificial lake, covering 4,800 hectares. It offers water sports, exceptional scenery and attracts thousands of migratory birds every year."
+                }
             }
         ]
     }

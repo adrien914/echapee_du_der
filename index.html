@@ -28,10 +28,11 @@
     <meta property="twitter:image" content="https://echappee-der.com/images/119665266962385998.JPG">
 
     <!-- Alternate languages -->
-    <link rel="alternate" hreflang="fr" href="index.html">
-    <link rel="alternate" hreflang="en" href="index-en.html">
-    <link rel="alternate" hreflang="de" href="index-de.html">
-    <link rel="alternate" hreflang="nl" href="index-nl.html">
+    <link rel="alternate" hreflang="x-default" href="https://echappee-der.com/">
+    <link rel="alternate" hreflang="fr" href="https://echappee-der.com/">
+    <link rel="alternate" hreflang="en" href="https://echappee-der.com/index-en.html">
+    <link rel="alternate" hreflang="de" href="https://echappee-der.com/index-de.html">
+    <link rel="alternate" hreflang="nl" href="https://echappee-der.com/index-nl.html">
 
     <link rel="canonical" href="https://echappee-der.com/" />
 
@@ -53,7 +54,8 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "LodgingBusiness",
+        "@type": ["LodgingBusiness", "VacationRental"],
+        "numberOfRooms": 1,
         "name": "L'Échappée Der",
         "description": "Location de vacances au Lac du Der - Gîte cosy avec mezzanine, douche hydrojet. Proche station nautique Giffaumont.",
         "image": [
@@ -106,6 +108,55 @@
                 "@type": "TouristAttraction",
                 "name": "Lac du Der",
                 "description": "Plus grand lac artificiel d'Europe"
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Où se situe L'Échappée Der ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "L'Échappée Der est situé à proximité du Lac du Der dans la Haute-Marne, à 8 km de la station nautique de Giffaumont."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Quelles sont les activités disponibles près du gîte ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Activités nautiques (voile, paddle, canoë, pêche, baignade), 35 km de pistes cyclables et sentiers de randonnée, observation d'oiseaux migrateurs, et découverte de villages pittoresques et de la gastronomie locale."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Comment réserver L'Échappée Der ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Vous pouvez réserver directement via Airbnb sur airbnb.com/h/lechapee5277 ou nous contacter par email à lechapeeder52@gmail.com ou par téléphone au +33 6 79 12 81 03."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Qu'est-ce qui est inclus dans la location ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "La location comprend un salon de 20 m² avec toilettes, une chambre en mezzanine de 18 m² avec lit king size 160 cm, lavabo et douche hydrojet."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Le Lac du Der est-il le plus grand lac artificiel d'Europe ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Oui, le Lac du Der-Chantecoq est le plus grand lac artificiel d'Europe avec une superficie de 4 800 hectares. Il offre des activités nautiques, des paysages exceptionnels et accueille des milliers d'oiseaux migrateurs chaque année."
+                }
             }
         ]
     }
@@ -282,7 +333,6 @@
     <footer>
         <div class="container">
             <p>&copy; 2025 L'Échappée Der - Tous droits réservés</p>
-            <button>Haut de page</button>
         </div>
     </footer>
 

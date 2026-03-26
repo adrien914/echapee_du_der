@@ -28,10 +28,11 @@
     <meta property="twitter:image" content="https://echappee-der.com/images/119665266962385998.JPG">
 
     <!-- Alternate languages -->
-    <link rel="alternate" hreflang="fr" href="index.html">
-    <link rel="alternate" hreflang="en" href="index-en.html">
-    <link rel="alternate" hreflang="de" href="index-de.html">
-    <link rel="alternate" hreflang="nl" href="index-nl.html">
+    <link rel="alternate" hreflang="x-default" href="https://echappee-der.com/">
+    <link rel="alternate" hreflang="fr" href="https://echappee-der.com/">
+    <link rel="alternate" hreflang="en" href="https://echappee-der.com/index-en.html">
+    <link rel="alternate" hreflang="de" href="https://echappee-der.com/index-de.html">
+    <link rel="alternate" hreflang="nl" href="https://echappee-der.com/index-nl.html">
 
     <link rel="canonical" href="https://echappee-der.com/index-nl.html" />
 
@@ -53,7 +54,8 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "LodgingBusiness",
+        "@type": ["LodgingBusiness", "VacationRental"],
+        "numberOfRooms": 1,
         "name": "L'Échappée Der",
         "description": "Vakantieverhuur aan het Lac du Der - Gezellige gîte met mezzanine en hydromassagedouche. Dicht bij het watersportcentrum van Giffaumont.",
         "image": [
@@ -94,6 +96,55 @@
                 "@type": "TouristAttraction",
                 "name": "Lac du Der",
                 "description": "Grootste kunstmatige meer van Europa"
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Waar is L'Échappée Der gelegen?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "L'Échappée Der is gelegen nabij het Lac du Der in de Haute-Marne, Frankrijk, op 8 km van het watersportcentrum van Giffaumont."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Welke activiteiten zijn er beschikbaar in de buurt?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Watersport (zeilen, paddleboarden, kanoën, vissen, zwemmen), 35 km fietspaden en wandelroutes, vogelspotten voor trekvogels en bezoeken aan pittoreske dorpjes met lokale gastronomie."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Hoe kan ik L'Échappée Der reserveren?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "U kunt rechtstreeks boeken via Airbnb op airbnb.com/h/lechapee5277, of ons contacteren per e-mail op lechapeeder52@gmail.com of telefonisch op +33 6 79 12 81 03."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Wat is inbegrepen in het verblijf?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Het verblijf omvat een woonkamer van 20 m² met toilet, een mezzanine slaapkamer van 18 m² met een kingsize bed (160 cm), wastafel en hydromassagedouche."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is het Lac du Der het grootste kunstmatige meer van Europa?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ja, het Lac du Der-Chantecoq is het grootste kunstmatige meer van Europa met een oppervlakte van 4.800 hectare. Het biedt watersport, uitzonderlijke landschappen en trekt elk jaar duizenden trekvogels aan."
+                }
             }
         ]
     }

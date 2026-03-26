@@ -28,10 +28,11 @@
     <meta property="twitter:image" content="https://echappee-der.com/images/veranda.JPG">
 
     <!-- Alternate languages -->
-    <link rel="alternate" hreflang="fr" href="index.html">
-    <link rel="alternate" hreflang="en" href="index-en.html">
-    <link rel="alternate" hreflang="de" href="index-de.html">
-    <link rel="alternate" hreflang="nl" href="index-nl.html">
+    <link rel="alternate" hreflang="x-default" href="https://echappee-der.com/">
+    <link rel="alternate" hreflang="fr" href="https://echappee-der.com/">
+    <link rel="alternate" hreflang="en" href="https://echappee-der.com/index-en.html">
+    <link rel="alternate" hreflang="de" href="https://echappee-der.com/index-de.html">
+    <link rel="alternate" hreflang="nl" href="https://echappee-der.com/index-nl.html">
 
     <link rel="canonical" href="https://echappee-der.com/index-de.html" />
 
@@ -53,7 +54,8 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "LodgingBusiness",
+        "@type": ["LodgingBusiness", "VacationRental"],
+        "numberOfRooms": 1,
         "name": "L'Échappée Der",
         "description": "Ferienhaus am Lac du Der - Gemütliches Ferienhaus mit Mezzanin, Hydrodusche. Nähe Wassersportstation Giffaumont.",
         "image": [
@@ -106,6 +108,55 @@
                 "@type": "TouristAttraction",
                 "name": "Lac du Der",
                 "description": "Europas größter Stausee"
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Wo befindet sich das L'Échappée Der?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "L'Échappée Der befindet sich in der Nähe des Lac du Der in der Haute-Marne, Frankreich, 8 km von der Wassersportstation Giffaumont entfernt."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Welche Aktivitäten gibt es in der Umgebung?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Wassersport (Segeln, Paddeln, Kanufahren, Angeln, Baden), 35 km Radwege und Wanderwege, Beobachtung von Zugvögeln sowie Besuche in malerischen Dörfern und Entdeckung der lokalen Gastronomie."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Wie kann ich L'Échappée Der buchen?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sie können direkt über Airbnb unter airbnb.com/h/lechapee5277 buchen oder uns per E-Mail unter lechapeeder52@gmail.com oder telefonisch unter +33 6 79 12 81 03 kontaktieren."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Was ist im Ferienhaus enthalten?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Das Ferienhaus umfasst ein 20 m² Wohnzimmer mit Toilette, ein 18 m² Mezzanin-Schlafzimmer mit King-Size-Bett (160 cm), Waschbecken und Hydrodusche."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Ist der Lac du Der der größte Stausee Europas?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ja, der Lac du Der-Chantecoq ist Europas größter Stausee mit einer Fläche von 4.800 Hektar. Er bietet Wassersport, außergewöhnliche Landschaften und zieht jedes Jahr Tausende von Zugvögeln an."
+                }
             }
         ]
     }

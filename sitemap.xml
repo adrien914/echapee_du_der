@@ -5,7 +5,7 @@
     <!-- French (Default) -->
     <url>
         <loc>https://echappee-der.com/</loc>
-        <lastmod>2026-01-13</lastmod>
+        <lastmod>2026-03-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://echappee-der.com/"/>
@@ -17,7 +17,7 @@
     <!-- English -->
     <url>
         <loc>https://echappee-der.com/index-en.html</loc>
-        <lastmod>2026-01-13</lastmod>
+        <lastmod>2026-03-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://echappee-der.com/"/>
@@ -29,7 +29,7 @@
     <!-- German -->
     <url>
         <loc>https://echappee-der.com/index-de.html</loc>
-        <lastmod>2026-01-13</lastmod>
+        <lastmod>2026-03-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://echappee-der.com/"/>
@@ -41,7 +41,7 @@
     <!-- Dutch -->
     <url>
         <loc>https://echappee-der.com/index-nl.html</loc>
-        <lastmod>2026-01-13</lastmod>
+        <lastmod>2026-03-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://echappee-der.com/"/>
