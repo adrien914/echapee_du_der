@@ -9,9 +9,9 @@
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://echappee-der.com/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://echappee-der.com/index-en.html"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://echappee-der.com/index-de.html"/>
-        <xhtml:link rel="alternate" hreflang="nl" href="https://echappee-der.com/index-nl.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://echappee-der.com/index-en"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://echappee-der.com/index-de"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://echappee-der.com/index-nl"/>
     </url>
 
     <!-- English -->
